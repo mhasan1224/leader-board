@@ -1,0 +1,36 @@
+/* font-family: sans-serif; */
+body{
+    font-family: Poppins;
+    background-color: #E5E5E5;;
+}
+/* header-section */
+
+.navbar-brand img{
+    width: 40.42px;
+    height: 51px;
+    left: 285px;
+    top: 26px;
+}
+.navbar-brand{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    border: 1px solid red;
+}
+.navbar img{
+    width: 51px;
+    height: 51px;
+}
+.nav-link{
+    color: #FFFFFF;;
+}
+.nav-item{
+    /* padding-top: 5px; */
+}
+/* .l-name{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+} */
