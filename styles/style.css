@@ -1,7 +1,11 @@
-/* font-family: sans-serif; */
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
 body{
     font-family: Poppins;
     background-color: #E5E5E5;;
+}
+body h5{
+    font-family: Roboto;
 }
 /* header-section */
 
@@ -10,6 +14,12 @@ body{
     height: 51px;
     left: 285px;
     top: 26px;
+}
+.navbar p{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
 }
 .navbar-brand{
     font-weight: 500;
@@ -71,4 +81,38 @@ body{
 }
 .blog-content p span{
     color: #562EFF;
+}
+/* course */
+.lates-course{
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+.card{
+    border-radius: 10px;
+    filter: drop-shadow(0px 5.34229px 13.3557px hsla(0, 0%, 0%, 0.124));
+    /* box-shadow: rgba(0, 0, 0, 0.25); */
+}
+.card-body p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14.6913px;
+    line-height: 17px;
+    color: #ED6B4F;
+}
+.card-body ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.card-body ul li{
+    color:#FFC014;
+}
+.rating ul li{
+    background: #FFE4E8;
+    color: #ED6B4F;
+    border-radius: 50px;
+    height: 29.38px;
+    width: 94.83px;
 }

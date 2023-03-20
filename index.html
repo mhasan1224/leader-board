@@ -10,6 +10,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="all.min/all.min.css">
+    <link rel="stylesheet" href="all.min/fontawesome.min.css">
     <!-- custom css -->
     <link rel="stylesheet" href="styles/style.css">
   </head>
@@ -19,7 +23,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
               <a class="navbar-brand" href="#"><img class="img-fluid" src="images/icons/logo.png" alt="logo"></a>
-              <p>Idea</p>
+              <p class="pt-2">Idea</p>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -54,45 +58,45 @@
             </div>
           </div>
           <div class="row mb-4">
-            <div class="col-md-4 mb-4">
+            <div class="col-sm-6 col-md-4 mb-4">
               <div class="player-content d-flex align-items-center">
                 <img src="images/photos/player-1.png" class="img-fluid" alt="player-1">
                 <p class="px-4 pt-2">John Smith</p>
               </div>
             </div>
             
-            <div class="col-md-4 mb-4">
+            <div class="col-sm-6 col-md-4 mb-4">
               <div class="player-content d-flex align-items-center">
-                <img src="images/photos/player-1.png" class="img-fluid" alt="player-1">
-                <p class="px-4 pt-2">John Smith</p>
+                <img src="images/photos/player-2.png" class="img-fluid" alt="player-2">
+                <p class="px-4 pt-2">Pro Rasel</p>
               </div>
             </div>
 
-            <div class="col-md-4 mb-4">
+            <div class="col-sm-6 col-md-4 mb-4">
               <div class="player-content d-flex align-items-center">
-                <img src="images/photos/player-1.png" class="img-fluid" alt="player-1">
-                <p class="px-4 pt-2">John Smith</p>
+                <img src="images/photos/player-3.png" class="img-fluid" alt="player-3">
+                <p class="px-4 pt-2">Abu Sufian</p>
               </div>
             </div>
 
-            <div class="col-md-4 mb-4">
+            <div class="col-sm-6 col-md-4 mb-4">
               <div class="player-content d-flex align-items-center">
-                <img src="images/photos/player-1.png" class="img-fluid" alt="player-1">
-                <p class="px-4 pt-2">John Smith</p>
+                <img src="images/photos/player-4.png" class="img-fluid" alt="player-4">
+                <p class="px-4 pt-2">Shajedul Karim</p>
               </div>
             </div>
 
-            <div class="col-md-4 mb-4">
+            <div class="col-sm-6 col-md-4 mb-4">
               <div class="player-content d-flex align-items-center">
-                <img src="images/photos/player-1.png" class="img-fluid" alt="player-1">
-                <p class="px-4 pt-2">John Smith</p>
+                <img src="images/photos/player-5.png" class="img-fluid" alt="player-5">
+                <p class="px-4 pt-2">Maruf Ahmed</p>
               </div>
             </div>
 
-            <div class="col-md-4 mb-4">
+            <div class="col-sm-6 col-md-4 mb-4">
               <div class="player-content d-flex align-items-center">
-                <img src="images/photos/player-1.png" class="img-fluid" alt="player-1">
-                <p class="px-4 pt-2">John Smith</p>
+                <img src="images/photos/player-6.png" class="img-fluid" alt="player-6">
+                <p class="px-4 pt-2">Mujahid</p>
               </div>
             </div>
           </div>
@@ -150,51 +154,83 @@
         </div>
       </section>
       <!-- latest section -->
-      <section class="courses">
-        <div class="container">
+      <section class="courses mb-5">
+        <div class="container p-5 lates-course">
           <div class="row">
-            <div class="t-player pt-5">
+            <div class="t-player pt-2 pb-2">
               <h1>Lates Course</h1>
             </div>
           </div>
           <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
-              <div class="card h-100">
-                <img src="images/courses/course-1.png" class="card-img-top" alt="...">
+              <div class="card h-100 p-3 course">
+                <img src="images/courses/course-1.png" class="card-img-top" alt="course-1">
                 <div class="card-body">
                   <h5 class="card-title">React - The Complete </h5>
                   <h5 class="card-title">Guide 2020</h5>
                   <p class="card-text">Reed Krakoff.</p>
-                  <img src="images/icons/star_icon.png" class="img-fluid" alt="">
-                </div>
-                <div class="card-footer">
-                  <small class="text-muted">Last updated 3 mins ago</small>
+                  <ul>
+                    <li>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i><span class="mx-3 text-secondary">4.5</span>
+                    </li>
+                    <div class="rating">
+                      <ul>
+                        <li class="border border-0 p-1 mb-1"><i class="fa-regular fa-clock"></i><span class="ps-2">01:30 hr</span></li>
+                      </ul>
+                    </div>
+                  </ul>
                 </div>
               </div>
             </div>
             <div class="col">
-              <div class="card h-100">
-                <img src="images/courses/course-2.png" class="card-img-top" alt="...">
+              <div class="card h-100 p-3 course">
+                <img src="images/courses/course-2.png" class="card-img-top" alt="course-2">
                 <div class="card-body">
-                  <h5 class="card-title">Powerpoint 2020 </h5>
-                  <h5 class="card-title">Master Powerpoint Cour </h5>
+                  <h5 class="card-title">Powerpoint 2020</h5>
+                  <h5 class="card-title">Master Powerpoint Cour</h5>
                   <p class="card-text">Walter Scott</p>
-                </div>
-                <div class="card-footer">
-                  <small class="text-muted">Last updated 3 mins ago</small>
+                  <ul>
+                    <li>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i><span class="mx-3 text-secondary">4.3</span>
+                    </li>
+                    <div class="rating">
+                      <ul>
+                        <li class="border border-0 p-1 mb-1"><i class="fa-regular fa-clock"></i><span class="ps-2">01:20 hr</span></li>
+                      </ul>
+                    </div>
+                  </ul>
                 </div>
               </div>
             </div>
             <div class="col">
-              <div class="card h-100">
-                <img src="images/courses/course-3.png" class="card-img-top" alt="...">
+              <div class="card h-100 p-3 course">
+                <img src="images/courses/course-3.png" class="card-img-top" alt="course-3">
                 <div class="card-body">
-                  <h5 class="card-title">The Complete JavaScript </h5>
+                  <h5 class="card-title">The Complete JavaScript</h5>
                   <h5 class="card-title">Course 2020</h5>
                   <p class="card-text">Reed Krakoff.</p>
-                </div>
-                <div class="card-footer">
-                  <small class="text-muted">Last updated 3 mins ago</small>
+                  <ul>
+                    <li>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i><span class="mx-3 text-secondary">4.5</span>
+                    </li>
+                    <div class="rating">
+                      <ul>
+                        <li class="border border-0 p-1 mb-1"><i class="fa-regular fa-clock"></i><span class="ps-2">01:30 hr</span></li>
+                      </ul>
+                    </div>
+                  </ul>
                 </div>
               </div>
             </div>
